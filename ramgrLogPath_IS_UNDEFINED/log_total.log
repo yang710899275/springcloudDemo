@@ -1,0 +1,117 @@
+===2019-05-30 16:35:20.611 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$54171e6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+===2019-05-30 16:35:20.912 INFO  springclouddemodocker.demo.DemoApplication Line:675 - No active profile set, falling back to default profiles: default
+===2019-05-30 16:35:21.404 WARN  org.springframework.boot.actuate.endpoint.EndpointId Line:135 - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+===2019-05-30 16:35:21.546 INFO  org.springframework.cloud.context.scope.GenericScope Line:295 - BeanFactory id=6d765004-317a-37d0-a63d-e3242351045e
+===2019-05-30 16:35:21.605 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$54171e6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+===2019-05-30 16:35:21.799 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 8761 (http)
+===2019-05-30 16:35:21.809 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8761"]
+===2019-05-30 16:35:21.816 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+===2019-05-30 16:35:21.816 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+===2019-05-30 16:35:21.821 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_152\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;D:\app\Administrator\product\11.1.0\client_1\bin;D:\app\Administrator\product\11.2.0\client_2\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_152\bin;C:\Program Files\Java\jdk1.8.0_152\jre\bin;C:\Program Files (x86)\CodeSmith\v7.0\;D:\java包\JAVA包\apache-maven-3.2.5\bin;C:\Program Files\Redis\;F:\IT\SVN\bin;C:\Program Files\nodejs\;C:\Program Files\erl10.2;D:\360downloads\rabbitmq_server\rabbitmq_server-3.7.12;F:\IT\Git\cmd;C:\Users\Administrator\AppData\Roaming\npm;.]
+===2019-05-30 16:35:21.967 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+===2019-05-30 16:35:21.967 INFO  org.springframework.web.context.ContextLoader Line:296 - Root WebApplicationContext: initialization completed in 1046 ms
+===2019-05-30 16:35:22.099 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
+===2019-05-30 16:35:22.099 INFO  com.netflix.config.sources.URLConfigurationSource Line:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+===2019-05-30 16:35:22.108 INFO  com.netflix.config.DynamicPropertyFactory Line:281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@6cc86152
+===2019-05-30 16:35:22.699 INFO  com.sun.jersey.server.impl.application.WebApplicationImpl Line:815 - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+===2019-05-30 16:35:22.745 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:70  - Using JSON encoding codec LegacyJacksonJson
+===2019-05-30 16:35:22.746 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:71  - Using JSON decoding codec LegacyJacksonJson
+===2019-05-30 16:35:22.819 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:80  - Using XML encoding codec XStreamXml
+===2019-05-30 16:35:22.820 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:81  - Using XML decoding codec XStreamXml
+===2019-05-30 16:35:23.033 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
+===2019-05-30 16:35:23.033 INFO  com.netflix.config.sources.URLConfigurationSource Line:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+===2019-05-30 16:35:23.159 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+===2019-05-30 16:35:23.661 INFO  org.springframework.cloud.netflix.eureka.InstanceInfoFactory Line:72  - Setting initial instance status as: STARTING
+===2019-05-30 16:35:23.682 INFO  com.netflix.discovery.DiscoveryClient Line:349 - Initializing Eureka in region us-east-1
+===2019-05-30 16:35:23.683 INFO  com.netflix.discovery.DiscoveryClient Line:352 - Client configured to neither register nor query for data.
+===2019-05-30 16:35:23.687 INFO  com.netflix.discovery.DiscoveryClient Line:365 - Discovery Client initialized at timestamp 1559205323686 with initial instances count: 0
+===2019-05-30 16:35:23.712 INFO  com.netflix.eureka.DefaultEurekaServerContext Line:63  - Initializing ...
+===2019-05-30 16:35:23.714 INFO  com.netflix.eureka.cluster.PeerEurekaNodes Line:188 - Adding new peer nodes [http://localhost:8761/eureka/]
+===2019-05-30 16:35:23.969 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:70  - Using JSON encoding codec LegacyJacksonJson
+===2019-05-30 16:35:23.969 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:71  - Using JSON decoding codec LegacyJacksonJson
+===2019-05-30 16:35:23.969 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:80  - Using XML encoding codec XStreamXml
+===2019-05-30 16:35:23.970 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:81  - Using XML decoding codec XStreamXml
+===2019-05-30 16:35:24.062 INFO  com.netflix.eureka.cluster.PeerEurekaNodes Line:110 - Replica node URL:  http://localhost:8761/eureka/
+===2019-05-30 16:35:24.070 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:151 - Finished initializing remote region registries. All known remote regions: []
+===2019-05-30 16:35:24.071 INFO  com.netflix.eureka.DefaultEurekaServerContext Line:70  - Initialized
+===2019-05-30 16:35:24.080 INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Line:59  - Exposing 2 endpoint(s) beneath base path '/actuator'
+===2019-05-30 16:35:24.138 INFO  org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry Line:41  - Registering application SERVICE-REGISTRY with eureka with status UP
+===2019-05-30 16:35:24.140 INFO  org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap Line:110 - Setting the eureka configuration..
+===2019-05-30 16:35:24.141 INFO  org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap Line:115 - Eureka data center value eureka.datacenter is not set, defaulting to default
+===2019-05-30 16:35:24.141 INFO  org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap Line:129 - Eureka environment value eureka.environment is not set, defaulting to test
+===2019-05-30 16:35:24.148 INFO  org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap Line:188 - isAws returned false
+===2019-05-30 16:35:24.149 INFO  org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap Line:153 - Initialized server context
+===2019-05-30 16:35:24.150 INFO  com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl Line:241 - Got 1 instances from neighboring DS node
+===2019-05-30 16:35:24.150 INFO  com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl Line:242 - Renew threshold is: 1
+===2019-05-30 16:35:24.150 INFO  com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl Line:253 - Changing status to UP
+===2019-05-30 16:35:24.155 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8761"]
+===2019-05-30 16:35:24.184 INFO  org.springframework.cloud.netflix.eureka.server.EurekaServerInitializerConfiguration Line:74  - Started Eureka Server
+===2019-05-30 16:35:24.200 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:204 - Tomcat started on port(s): 8761 (http) with context path ''
+===2019-05-30 16:35:24.200 INFO  org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration Line:143 - Updating port to 8761
+===2019-05-30 16:35:24.202 INFO  springclouddemodocker.demo.DemoApplication Line:59  - Started DemoApplication in 4.745 seconds (JVM running for 5.426)
+===2019-05-30 16:35:24.416 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+===2019-05-30 16:35:24.417 INFO  org.springframework.web.servlet.DispatcherServlet Line:524 - Initializing Servlet 'dispatcherServlet'
+===2019-05-30 16:35:24.423 INFO  org.springframework.web.servlet.DispatcherServlet Line:546 - Completed initialization in 6 ms
+===2019-05-30 16:35:25.637 INFO  springclouddemodocker.demo.controller.testController Line:17  - test1111111
+===2019-05-30 16:35:39.083 INFO  springclouddemodocker.demo.controller.testController Line:17  - test1111111
+===2019-05-30 16:36:00.062 INFO  springclouddemodocker.demo.controller.testController Line:17  - test1111111
+===2019-05-30 16:36:00.237 INFO  springclouddemodocker.demo.controller.testController Line:17  - test1111111
+===2019-05-30 16:36:13.437 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$66d0a472] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+===2019-05-30 16:36:13.719 INFO  springclouddemodocker.demo.DemoApplication Line:675 - No active profile set, falling back to default profiles: default
+===2019-05-30 16:36:14.201 WARN  org.springframework.boot.actuate.endpoint.EndpointId Line:135 - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+===2019-05-30 16:36:14.350 INFO  org.springframework.cloud.context.scope.GenericScope Line:295 - BeanFactory id=6d765004-317a-37d0-a63d-e3242351045e
+===2019-05-30 16:36:14.413 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$66d0a472] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+===2019-05-30 16:36:14.620 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 8761 (http)
+===2019-05-30 16:36:14.630 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8761"]
+===2019-05-30 16:36:14.635 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+===2019-05-30 16:36:14.636 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+===2019-05-30 16:36:14.641 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_152\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;D:\app\Administrator\product\11.1.0\client_1\bin;D:\app\Administrator\product\11.2.0\client_2\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_152\bin;C:\Program Files\Java\jdk1.8.0_152\jre\bin;C:\Program Files (x86)\CodeSmith\v7.0\;D:\java包\JAVA包\apache-maven-3.2.5\bin;C:\Program Files\Redis\;F:\IT\SVN\bin;C:\Program Files\nodejs\;C:\Program Files\erl10.2;D:\360downloads\rabbitmq_server\rabbitmq_server-3.7.12;F:\IT\Git\cmd;C:\Users\Administrator\AppData\Roaming\npm;.]
+===2019-05-30 16:36:14.766 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+===2019-05-30 16:36:14.766 INFO  org.springframework.web.context.ContextLoader Line:296 - Root WebApplicationContext: initialization completed in 1039 ms
+===2019-05-30 16:36:14.911 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
+===2019-05-30 16:36:14.911 INFO  com.netflix.config.sources.URLConfigurationSource Line:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+===2019-05-30 16:36:14.918 INFO  com.netflix.config.DynamicPropertyFactory Line:281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@c3edf4c
+===2019-05-30 16:36:15.516 INFO  com.sun.jersey.server.impl.application.WebApplicationImpl Line:815 - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+===2019-05-30 16:36:15.561 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:70  - Using JSON encoding codec LegacyJacksonJson
+===2019-05-30 16:36:15.562 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:71  - Using JSON decoding codec LegacyJacksonJson
+===2019-05-30 16:36:15.638 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:80  - Using XML encoding codec XStreamXml
+===2019-05-30 16:36:15.638 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:81  - Using XML decoding codec XStreamXml
+===2019-05-30 16:36:15.845 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
+===2019-05-30 16:36:15.846 INFO  com.netflix.config.sources.URLConfigurationSource Line:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+===2019-05-30 16:36:15.970 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+===2019-05-30 16:36:16.484 INFO  org.springframework.cloud.netflix.eureka.InstanceInfoFactory Line:72  - Setting initial instance status as: STARTING
+===2019-05-30 16:36:16.505 INFO  com.netflix.discovery.DiscoveryClient Line:349 - Initializing Eureka in region us-east-1
+===2019-05-30 16:36:16.505 INFO  com.netflix.discovery.DiscoveryClient Line:352 - Client configured to neither register nor query for data.
+===2019-05-30 16:36:16.511 INFO  com.netflix.discovery.DiscoveryClient Line:365 - Discovery Client initialized at timestamp 1559205376510 with initial instances count: 0
+===2019-05-30 16:36:16.536 INFO  com.netflix.eureka.DefaultEurekaServerContext Line:63  - Initializing ...
+===2019-05-30 16:36:16.538 INFO  com.netflix.eureka.cluster.PeerEurekaNodes Line:188 - Adding new peer nodes [http://localhost:8761/eureka/]
+===2019-05-30 16:36:16.791 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:70  - Using JSON encoding codec LegacyJacksonJson
+===2019-05-30 16:36:16.791 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:71  - Using JSON decoding codec LegacyJacksonJson
+===2019-05-30 16:36:16.791 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:80  - Using XML encoding codec XStreamXml
+===2019-05-30 16:36:16.791 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:81  - Using XML decoding codec XStreamXml
+===2019-05-30 16:36:16.865 INFO  com.netflix.eureka.cluster.PeerEurekaNodes Line:110 - Replica node URL:  http://localhost:8761/eureka/
+===2019-05-30 16:36:16.871 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:151 - Finished initializing remote region registries. All known remote regions: []
+===2019-05-30 16:36:16.871 INFO  com.netflix.eureka.DefaultEurekaServerContext Line:70  - Initialized
+===2019-05-30 16:36:16.881 INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Line:59  - Exposing 2 endpoint(s) beneath base path '/actuator'
+===2019-05-30 16:36:16.939 INFO  org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry Line:41  - Registering application SERVICE-REGISTRY with eureka with status UP
+===2019-05-30 16:36:16.942 INFO  org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap Line:110 - Setting the eureka configuration..
+===2019-05-30 16:36:16.942 INFO  org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap Line:115 - Eureka data center value eureka.datacenter is not set, defaulting to default
+===2019-05-30 16:36:16.942 INFO  org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap Line:129 - Eureka environment value eureka.environment is not set, defaulting to test
+===2019-05-30 16:36:16.949 INFO  org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap Line:188 - isAws returned false
+===2019-05-30 16:36:16.950 INFO  org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap Line:153 - Initialized server context
+===2019-05-30 16:36:16.950 INFO  com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl Line:241 - Got 1 instances from neighboring DS node
+===2019-05-30 16:36:16.950 INFO  com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl Line:242 - Renew threshold is: 1
+===2019-05-30 16:36:16.950 INFO  com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl Line:253 - Changing status to UP
+===2019-05-30 16:36:16.952 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8761"]
+===2019-05-30 16:36:16.957 INFO  org.springframework.cloud.netflix.eureka.server.EurekaServerInitializerConfiguration Line:74  - Started Eureka Server
+===2019-05-30 16:36:16.973 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:204 - Tomcat started on port(s): 8761 (http) with context path ''
+===2019-05-30 16:36:16.973 INFO  org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration Line:143 - Updating port to 8761
+===2019-05-30 16:36:16.975 INFO  springclouddemodocker.demo.DemoApplication Line:59  - Started DemoApplication in 4.692 seconds (JVM running for 5.398)
+===2019-05-30 16:36:17.397 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+===2019-05-30 16:36:17.398 INFO  org.springframework.web.servlet.DispatcherServlet Line:524 - Initializing Servlet 'dispatcherServlet'
+===2019-05-30 16:36:17.408 INFO  org.springframework.web.servlet.DispatcherServlet Line:546 - Completed initialization in 10 ms
+===2019-05-30 16:36:22.917 INFO  springclouddemodocker.demo.controller.testController Line:17  - test1111111
+===2019-05-30 16:36:23.086 INFO  springclouddemodocker.demo.controller.testController Line:17  - test1111111
+===2019-05-30 16:37:16.951 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1250 - Running the evict task with compensationTime 0ms
+===2019-05-30 16:38:16.952 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1250 - Running the evict task with compensationTime 0ms
+===2019-05-30 16:39:16.952 INFO  com.netflix.eureka.registry.AbstractInstanceRegistry Line:1250 - Running the evict task with compensationTime 0ms
